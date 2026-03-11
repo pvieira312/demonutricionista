@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Básico -->
+    <title>[NOMBRE_MARCA] | Nutrición y Salud Premium en [CIUDAD]</title>
+    <meta name="description" content="Mejora tu salud con [NOMBRE_NUTRICIONISTA]. Planes nutricionales 100% personalizados, online y presencial en [CIUDAD]. Reserva tu valoración gratuita.">
+    <link rel="canonical" href="[URL_WEB]">
+    
+    <!-- OpenGraph -->
+    <meta property="og:title" content="[NOMBRE_MARCA] - Nutrición Personalizada">
+    <meta property="og:description" content="Transforma tus hábitos con un enfoque científico y humano.">
+    <meta property="og:image" content="https://picsum.photos/seed/nutrition/1200/630">
+    <meta property="og:url" content="[URL_WEB]">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon (Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JSON-LD LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Nutritionist",
+      "name": "[NOMBRE_MARCA]",
+      "image": "https://picsum.photos/seed/profile/400/400",
+      "@id": "[URL_WEB]",
+      "url": "[URL_WEB]",
+      "telephone": "[TEL]",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[DIRECCIÓN]",
+        "addressLocality": "[CIUDAD]",
+        "postalCode": "[CP]",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.416775,
+        "longitude": -3.703790
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- 
+    ================================================================
+    GUÍA RÁPIDA DE PERSONALIZACIÓN
+    ================================================================
+    1. COLORES: Edita styles.css -> :root
+    2. TEXTOS: Busca los corchetes "[ ]" y reemplaza.
+    3. IMÁGENES: Cambia los src de <img>.
+    4. LINKS: Configura [WHATSAPP_LINK] y redes sociales.
+    ================================================================
+    -->
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">[NOMBRE_MARCA]</a>
+            
+            <nav class="nav">
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#metodo" class="nav-link">Método</a>
+                <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+                <a href="#precios" class="nav-link">Planes</a>
+                <a href="#contacto" class="btn btn-primary">Reserva tu valoración</a>
+            </nav>
+
+            <button class="mobile-toggle" aria-label="Abrir menú">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content reveal">
+                    <h1><span class="text-accent">Nutrición</span> que se adapta a tu vida, no al revés.</h1>
+                    <p>Ayudo a personas a recuperar su energía y alcanzar su peso ideal sin dietas restrictivas ni efecto rebote.</p>
+                    <div class="hero-actions">
+                        <a href="#contacto" class="btn btn-primary">Reserva tu valoración</a>
+                        <a href="#precios" class="btn btn-outline">Ver planes</a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <span>+500</span>
+                            <span>Pacientes</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>100%</span>
+                            <span>Personalizado</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>Online</span>
+                            <span>Y Presencial</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="https://picsum.photos/seed/nutri-hero/600/700" alt="Nutricionista profesional trabajando" referrerPolicy="no-referrer">
+                    <div class="floating-card floating-card-1">
+                        <div class="service-icon" style="margin:0; width:40px; height:40px;">🥗</div>
+                        <div>
+                            <p style="font-weight:700; font-size:0.9rem;">Plan Semanal</p>
+                            <p style="font-size:0.7rem; color:var(--muted);">Actualizado hoy</p>
+                        </div>
+                    </div>
+                    <div class="floating-card floating-card-2">
+                        <div class="service-icon" style="margin:0; width:40px; height:40px; background:var(--success); color:white;">✓</div>
+                        <div>
+                            <p style="font-weight:700; font-size:0.9rem;">Objetivo cumplido</p>
+                            <p style="font-size:0.7rem; color:var(--muted);">-2kg grasa saludablemente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section id="servicios" class="services">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Servicios Especializados</h2>
+                    <p>Enfoques específicos para necesidades reales. Ciencia aplicada a tu bienestar diario.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Card 1 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"></path></svg>
+                        </div>
+                        <h3>Pérdida de Grasa</h3>
+                        <p>Enfoque metabólico para reducir grasa corporal manteniendo tu masa muscular y energía.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 18h12M6 6h12M6 12h12"></path></svg>
+                        </div>
+                        <h3>Salud Digestiva</h3>
+                        <p>Tratamiento de hinchazón, intolerancias y mejora de la microbiota para una digestión ligera.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <h3>Nutrición Deportiva</h3>
+                        <p>Optimiza tu rendimiento y recuperación con una estrategia nutricional acorde a tus entrenamientos.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3>Embarazo y Postparto</h3>
+                        <p>Acompañamiento nutricional seguro para ti y tu bebé en las etapas más importantes.</p>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                        </div>
+                        <h3>Educación Nutricional</h3>
+                        <p>Aprende a leer etiquetas, organizar tu despensa y cocinar saludable sin complicaciones.</p>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <h3>Ganancia Muscular</h3>
+                        <p>Superávit calórico controlado para aumentar fuerza y volumen de forma estética y saludable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Para quién es -->
+        <section class="target">
+            <div class="container">
+                <div class="target-content">
+                    <div class="reveal">
+                        <h2 class="font-display" style="font-size:2.5rem; margin-bottom:1.5rem;">¿Sientes que has probado todo y nada funciona?</h2>
+                        <p style="margin-bottom:2rem;">La nutrición no es solo comer menos, es nutrirse mejor. Si te identificas con alguno de estos puntos, puedo ayudarte:</p>
+                        <div class="target-list">
+                            <span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Ansiedad por la comida</span>
+                            <span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Falta de energía diaria</span>
+                            <span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Digestiones pesadas</span>
+                            <span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Efecto rebote constante</span>
+                            <span class="chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Confusión con tanta información</span>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <img src="https://picsum.photos/seed/target/600/400" alt="Persona disfrutando de comida saludable" style="border-radius:var(--radius-md);" referrerPolicy="no-referrer">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Método -->
+        <section id="metodo" class="method">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Mi Método de Trabajo</h2>
+                    <p>Un proceso estructurado para garantizar que los cambios se conviertan en tu nuevo estilo de vida.</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Paso 1 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1. Valoración 360º</h3>
+                            <p>Analizamos tu historial, analíticas, gustos, horarios y relación con la comida.</p>
+                        </div>
+                    </div>
+                    <!-- Paso 2 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2. Plan Personalizado</h3>
+                            <p>Diseño tu estrategia nutricional única, sin alimentos prohibidos y adaptada a tu cocina.</p>
+                        </div>
+                    </div>
+                    <!-- Paso 3 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>3. Seguimiento Activo</h3>
+                            <p>Revisiones periódicas para resolver dudas, evaluar progreso y mantener la motivación.</p>
+                        </div>
+                    </div>
+                    <!-- Paso 4 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>4. Ajustes y Evolución</h3>
+                            <p>Modificamos el plan según tus sensaciones y resultados para seguir avanzando.</p>
+                        </div>
+                    </div>
+                    <!-- Paso 5 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>5. Resultados Sostenibles</h3>
+                            <p>Consolidamos los hábitos para que no necesites una dieta nunca más.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Mí -->
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image reveal">
+                        <img src="https://picsum.photos/seed/nutri-profile/600/800" alt="[NOMBRE_NUTRICIONISTA]" referrerPolicy="no-referrer">
+                    </div>
+                    <div class="about-content reveal">
+                        <h2 class="font-display">Hola, soy [NOMBRE_NUTRICIONISTA]</h2>
+                        <p style="font-size:1.2rem; color:var(--primary); font-weight:600; margin-bottom:1.5rem;">Nutricionista Colegiada Nº [COLEGIADA_N]</p>
+                        <p>Mi pasión es ayudar a las personas a entender que comer bien no es un castigo, sino la mejor forma de quererse. Con formación especializada en [ESPECIALIDAD], mi enfoque combina la evidencia científica más reciente con la empatía necesaria para entender tu contexto real.</p>
+                        <p style="margin-top:1rem;">No creo en las dietas milagro, creo en las personas con ganas de mejorar su calidad de vida paso a paso.</p>
+                        
+                        <div class="about-badges">
+                            <span class="badge">Graduada en Nutrición</span>
+                            <span class="badge">Máster en [MÁSTER]</span>
+                            <span class="badge">Formación Continua</span>
+                        </div>
+                        
+                        <a href="#contacto" class="btn btn-outline" style="margin-top:2.5rem;">Conóceme más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resultados -->
+        <section class="results">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Casos de Éxito Reales</h2>
+                    <p>Más allá de la báscula: mejoras en energía, descanso y relación con el espejo.</p>
+                </div>
+
+                <div class="results-grid">
+                    <!-- Caso 1 -->
+                    <div class="result-card reveal">
+                        <div class="result-img">Imagen de progreso (respetuosa)</div>
+                        <div class="result-info">
+                            <h3>Caso: Mejora Metabólica</h3>
+                            <p>"He recuperado mi energía diaria y ya no tengo hinchazón después de comer."</p>
+                            <div class="result-metrics">
+                                <div class="metric"><span>-8kg</span><span>Grasa</span></div>
+                                <div class="metric"><span>+80%</span><span>Energía</span></div>
+                                <div class="metric"><span>12 sem</span><span>Tiempo</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Caso 2 -->
+                    <div class="result-card reveal">
+                        <div class="result-img">Imagen de progreso (respetuosa)</div>
+                        <div class="result-info">
+                            <h3>Caso: Rendimiento Deportivo</h3>
+                            <p>"Mis marcas en el gimnasio han subido mientras mi composición corporal mejora."</p>
+                            <div class="result-metrics">
+                                <div class="metric"><span>+3kg</span><span>Músculo</span></div>
+                                <div class="metric"><span>+20kg</span><span>Fuerza</span></div>
+                                <div class="metric"><span>16 sem</span><span>Tiempo</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Caso 3 -->
+                    <div class="result-card reveal">
+                        <div class="result-img">Imagen de progreso (respetuosa)</div>
+                        <div class="result-info">
+                            <h3>Caso: Cambio de Hábitos</h3>
+                            <p>"Por fin entiendo qué comer sin sentirme culpable ni pasar hambre."</p>
+                            <div class="result-metrics">
+                                <div class="metric"><span>Estable</span><span>Peso</span></div>
+                                <div class="metric"><span>100%</span><span>Adherencia</span></div>
+                                <div class="metric"><span>8 sem</span><span>Tiempo</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="disclaimer">* Los resultados varían según cada persona y su compromiso con el plan. No se garantizan resultados específicos.</p>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="slider-container reveal">
+                    <div class="slider-track">
+                        <!-- Slide 1 -->
+                        <div class="slide">
+                            <blockquote>"La mejor decisión que he tomado para mi salud. [NOMBRE_NUTRICIONISTA] te escucha y te entiende de verdad."</blockquote>
+                            <cite>María G., Sabadell</cite>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="slide">
+                            <blockquote>"Por primera vez en años no tengo ansiedad por el dulce. El plan es súper variado y fácil de seguir."</blockquote>
+                            <cite>Carlos R., Madrid</cite>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="slide">
+                            <blockquote>"El acompañamiento online es excelente. Siento que tengo a mi nutri en el bolsillo para cualquier duda."</blockquote>
+                            <cite>Laura S., Valencia</cite>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-controls">
+                        <button class="slider-btn prev-slide" aria-label="Anterior">←</button>
+                        <button class="slider-btn next-slide" aria-label="Siguiente">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planes y Precios -->
+        <section id="precios" class="pricing">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Planes de Acompañamiento</h2>
+                    <p>Elige el nivel de apoyo que necesitas para transformar tu salud.</p>
+                </div>
+
+                <div class="pricing-toggle reveal">
+                    <span>Online</span>
+                    <div class="toggle-switch">
+                        <div class="toggle-knob"></div>
+                    </div>
+                    <span>Presencial</span>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Plan 1 -->
+                    <div class="price-card reveal">
+                        <h3>Inicio</h3>
+                        <div class="price-amount">59€<span>/mes</span></div>
+                        <ul class="price-features">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Valoración inicial completa</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Plan nutricional base</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Guía de suplementación</li>
+                            <li style="opacity:0.5;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Soporte WhatsApp diario</li>
+                        </ul>
+                        <button class="btn btn-outline btn-select-plan">Quiero este plan</button>
+                    </div>
+                    <!-- Plan 2 -->
+                    <div class="price-card featured reveal">
+                        <div class="featured-label">MÁS POPULAR</div>
+                        <h3>Seguimiento</h3>
+                        <div class="price-amount">149€<span>/mes</span></div>
+                        <ul class="price-features">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Todo lo del plan Inicio</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> 2 Sesiones de revisión/mes</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Soporte WhatsApp (L-V)</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Recetario personalizado</li>
+                        </ul>
+                        <button class="btn btn-primary btn-select-plan">Quiero este plan</button>
+                    </div>
+                    <!-- Plan 3 -->
+                    <div class="price-card reveal">
+                        <h3>Premium</h3>
+                        <div class="price-amount">299€<span>/mes</span></div>
+                        <ul class="price-features">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Seguimiento Semanal</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Soporte 24/7 prioritario</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Lista de la compra dinámica</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> Sesión con Psicóloga/Entrenador</li>
+                        </ul>
+                        <button class="btn btn-outline btn-select-plan">Quiero este plan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead Magnet -->
+        <section class="container">
+            <div class="lead-magnet reveal">
+                <div>
+                    <h2>Empieza hoy gratis</h2>
+                    <p>Descarga mi guía exclusiva con <strong>7 desayunos altos en proteína</strong> para empezar el día con energía y sin hambre.</p>
+                </div>
+                <form id="lead-form" class="lead-form">
+                    <div class="input-group">
+                        <label for="lead-name">Nombre</label>
+                        <input type="text" id="lead-name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="lead-email">Email</label>
+                        <input type="email" id="lead-email" placeholder="tu@email.com" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="background:var(--white); color:var(--primary);">Descargar Guía Gratis</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Blog Preview -->
+        <section id="blog" class="blog">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Recursos y Consejos</h2>
+                    <p>Artículos para que aprendas a cuidar de tu salud con base científica.</p>
+                </div>
+
+                <div class="blog-grid">
+                    <!-- Post 1 -->
+                    <article class="blog-card reveal">
+                        <div class="blog-img"><img src="https://picsum.photos/seed/blog1/400/250" alt="Post blog" referrerPolicy="no-referrer"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta"><span>Nutrición</span><span>10 Mar 2024</span></div>
+                            <h3>¿Es el desayuno la comida más importante?</h3>
+                            <p>Desmontamos mitos sobre el timing de las comidas y el ayuno intermitente.</p>
+                            <a href="#" style="color:var(--primary); font-weight:700; display:inline-block; margin-top:1rem;">Leer más →</a>
+                        </div>
+                    </article>
+                    <!-- Post 2 -->
+                    <article class="blog-card reveal">
+                        <div class="blog-img"><img src="https://picsum.photos/seed/blog2/400/250" alt="Post blog" referrerPolicy="no-referrer"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta"><span>Recetas</span><span>05 Mar 2024</span></div>
+                            <h3>5 Cenas rápidas y saludables para días sin tiempo</h3>
+                            <p>Organiza tu semana con estas ideas de menos de 15 minutos.</p>
+                            <a href="#" style="color:var(--primary); font-weight:700; display:inline-block; margin-top:1rem;">Leer más →</a>
+                        </div>
+                    </article>
+                    <!-- Post 3 -->
+                    <article class="blog-card reveal">
+                        <div class="blog-img"><img src="https://picsum.photos/seed/blog3/400/250" alt="Post blog" referrerPolicy="no-referrer"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta"><span>Salud</span><span>01 Mar 2024</span></div>
+                            <h3>Cómo leer etiquetas sin volverse loco</h3>
+                            <p>Guía práctica para identificar azúcares ocultos y buenos procesados.</p>
+                            <a href="#" style="color:var(--primary); font-weight:700; display:inline-block; margin-top:1rem;">Leer más →</a>
+                        </div>
+                    </article>
+                </div>
+                <div style="text-align:center; margin-top:3rem;">
+                    <a href="#" class="btn btn-outline">Ver todos los artículos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Preguntas Frecuentes</h2>
+                    <p>Todo lo que necesitas saber antes de empezar tu proceso.</p>
+                </div>
+
+                <div class="faq-container reveal">
+                    <div class="faq-item">
+                        <button class="faq-question">¿Cuánto dura cada sesión?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>La primera sesión de valoración dura unos 60 minutos. Las sesiones de seguimiento suelen durar entre 30 y 45 minutos.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Tengo que pesar la comida?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>No es obligatorio. Trabajamos con raciones visuales y hambre/saciedad, aunque al principio puede ayudar para aprender porciones.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Pasaré hambre con el plan?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>Rotundamente no. Si pasas hambre, el plan está mal diseñado. Ajustamos las calorías y el volumen para que estés saciado/a.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Cómo funciona el servicio online?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>Hacemos las sesiones por videollamada (Zoom/Meet). Recibes todo el material en tu email y tenemos contacto por WhatsApp.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Incluyes suplementación?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>Solo si es estrictamente necesario y bajo evidencia científica. La base siempre es la alimentación real.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Hay lista de alimentos prohibidos?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>No. Aprendemos a gestionar la frecuencia de consumo. Ningún alimento por sí solo arruina un progreso.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Cada cuánto son las revisiones?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>Depende del plan, pero lo ideal es cada 15 días al principio y luego una vez al mes.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">¿Puedo cancelar en cualquier momento?<span class="faq-icon">▼</span></button>
+                        <div class="faq-answer"><p>Sí, no hay permanencia. Solo pedimos avisar con 48h de antelación para las citas agendadas.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-wrapper reveal">
+                        <h2 class="font-display" style="margin-bottom:1rem;">Solicita tu valoración</h2>
+                        <p style="margin-bottom:2rem;">Cuéntame tu objetivo y te diré cómo podemos alcanzarlo juntos.</p>
+                        
+                        <form id="contact-form">
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <label for="name">Nombre completo</label>
+                                    <input type="text" id="name" placeholder="Tu nombre" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="tu@email.com" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <label for="phone">Teléfono</label>
+                                    <input type="tel" id="phone" placeholder="600 000 000">
+                                </div>
+                                <div class="input-group">
+                                    <label for="pref">Preferencia</label>
+                                    <select id="pref">
+                                        <option value="online">Online</option>
+                                        <option value="presencial">Presencial</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-group" style="margin-bottom:1rem;">
+                                <label for="plan">Plan de interés</label>
+                                <select id="plan">
+                                    <option value="inicio">Plan Inicio</option>
+                                    <option value="seguimiento">Plan Seguimiento</option>
+                                    <option value="premium">Plan Premium</option>
+                                </select>
+                            </div>
+                            <div class="input-group" style="margin-bottom:1.5rem;">
+                                <label for="message">Cuéntame tu objetivo</label>
+                                <textarea id="message" rows="4" placeholder="Ej: Quiero mejorar mi digestión y perder peso..."></textarea>
+                            </div>
+                            
+                            <p style="font-size:0.75rem; color:var(--muted); margin-bottom:1.5rem;">
+                                <input type="checkbox" required> Acepto la <a href="#legal-privacidad" style="text-decoration:underline;">política de privacidad</a>.
+                            </p>
+                            
+                            <button type="submit" class="btn btn-primary" style="width:100%;">Enviar solicitud</button>
+                        </form>
+                    </div>
+
+                    <div class="booking-widget reveal">
+                        <h3>Reserva Directa</h3>
+                        <p>¿Prefieres ver mi disponibilidad ahora mismo? Elige un hueco para nuestra primera llamada gratuita de 15 min.</p>
+                        
+                        <div class="booking-days">
+                            <div class="day-slot available"><span>LUN</span><br><strong>9:00</strong></div>
+                            <div class="day-slot"><span>MAR</span><br>--</div>
+                            <div class="day-slot available"><span>MIE</span><br><strong>11:30</strong></div>
+                            <div class="day-slot available"><span>JUE</span><br><strong>16:00</strong></div>
+                            <div class="day-slot"><span>VIE</span><br>--</div>
+                        </div>
+                        
+                        <button class="btn btn-outline" style="width:100%; font-size:0.8rem;">Ver calendario completo</button>
+                        
+                        <div style="margin-top:2rem; padding-top:2rem; border-top:1px solid rgba(0,0,0,0.1);">
+                            <p style="font-weight:700; margin-bottom:0.5rem;">Otras formas de contacto:</p>
+                            <p style="font-size:0.9rem; margin-bottom:0.3rem;">📞 [TEL]</p>
+                            <p style="font-size:0.9rem; margin-bottom:0.3rem;">✉️ [EMAIL]</p>
+                            <p style="font-size:0.9rem;">📍 [DIRECCIÓN], [CIUDAD]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="footer-logo">[NOMBRE_MARCA]</a>
+                    <p style="color:var(--muted);">Nutrición basada en ciencia y empatía. Ayudándote a construir una relación sana con la comida desde [AÑO].</p>
+                    <div class="social-links">
+                        <a href="[INSTAGRAM]" class="social-icon" aria-label="Instagram">IG</a>
+                        <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">IN</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#metodo">Método</a></li>
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#precios">Planes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#legal-aviso">Aviso Legal</a></li>
+                        <li><a href="#legal-privacidad">Privacidad</a></li>
+                        <li><a href="#legal-cookies">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contacto</h4>
+                    <p>[TEL]</p>
+                    <p>[EMAIL]</p>
+                    <p>[DIRECCIÓN]<br>[CIUDAD], [CP]</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 [NOMBRE_MARCA]. Todos los derechos reservados. Diseñado con ❤️ para profesionales de la salud.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="[WHATSAPP_LINK]" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-10.6 8.38 8.38 0 0 1 3.8.9L22 2l-1.5 5.5Z"></path></svg>
+    </a>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <h4 style="margin-bottom:0.5rem;">🍪 Cookies</h4>
+        <p style="font-size:0.85rem; margin-bottom:1rem; color:var(--muted);">Utilizamos cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestra política de cookies.</p>
+        <div style="display:flex; gap:0.5rem;">
+            <button id="accept-cookies" class="btn btn-primary" style="padding:0.5rem 1rem; font-size:0.8rem;">Aceptar</button>
+            <button id="reject-cookies" class="btn btn-outline" style="padding:0.5rem 1rem; font-size:0.8rem;">Rechazar</button>
+        </div>
+    </div>
+
+    <!-- Modal de Éxito -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="service-icon" style="background:var(--success); color:white; margin-bottom:1.5rem;">✓</div>
+            <h2 class="font-display">¡Mensaje Enviado!</h2>
+            <p style="margin-top:1rem; color:var(--muted);">Tu solicitud ha sido procesada correctamente.</p>
+            <button class="btn btn-primary close-modal" style="margin-top:2rem;">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
